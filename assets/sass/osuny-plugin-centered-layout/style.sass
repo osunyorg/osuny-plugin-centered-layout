@@ -1,6 +1,6 @@
 .blocks
     @include in-page-with-sidebar
-        // Blocks 2/8/2
+        // Blocs 2/8/2
         .heading h2,
         .block-chapter .block-content,
         .block-contact .block-content,
@@ -12,7 +12,18 @@
         .block-video .block-content
             padding-left: offset(2) !important
             width: columns(10)
-        // Blocks full with
+        // Blocs pleine largeur
+        .block-gallery .block-content
+            padding-left: 0 !important
+            width: 100%
+        // Réglages
+        .block-gallery
+            &--grid
+                .gallery
+                    // Remettre en 4 colonnes
+                    @include flexbox-grid(4)
+                    // Dernière ligne centrée
+                    justify-content: center
     // Navigation full width
     .block-siblings-navigation
         .block-content
