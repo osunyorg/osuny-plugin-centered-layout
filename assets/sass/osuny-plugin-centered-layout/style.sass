@@ -1,3 +1,25 @@
+.posts__page
+    @include media-breakpoint-up(desktop)
+        .post-sidebar
+            position: relative !important
+            padding-left: offset(2)
+            width: columns(10) !important
+            margin-bottom: $spacing-5
+            padding-top: $spacing-5
+            .toc-container
+                padding-top: $spacing-2 !important
+                width: 100%
+                .toc-title
+                    position: absolute
+                .toc-pages
+                    border-bottom: 1px solid var(--color-border)
+                    padding-bottom: $spacing-3
+                    ol
+                        align-items: end
+                        padding-left: pxToRem(160)
+                        text-align: right
+                        li:first-child
+                            margin-top: pxToRem(5)
 .blocks
     @include in-page-with-sidebar
         // Blocs 2/8/2
