@@ -2,6 +2,10 @@
 
 Ce plugin transforme les mises en page avec barre latérale (4 colonnes / 8 colonnes) en mises en pages centrées.
 
+
+<img width="1440" height="789" alt="image" src="https://github.com/user-attachments/assets/88d3d5a2-5c6d-4516-9231-72e7771997f6" />
+
+
 ## Utilisation
 
 D'abord, importer le plugin dans le site.
